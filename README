@@ -1,0 +1,50 @@
+Assignment 3 - Lunar Lander
+
+Name: Bashir Osman
+One Card Number: 1174263
+Computing Science UNIX ID: bashir1
+Lecture Section: A2
+Lab Section: D02
+TAs Name: Jincheng Mei
+
+#### Description of Program ####
+
+Lunar Lander Game built in C and Sketchpad. Uses a text-based user interface built using
+ncurses and signals to animate the game.
+
+The objective of the game is to properly land the lander on the surface of the moon.
+You also need to take into account how fast you are going. If your velocity is too high
+you will crash, even if you've landed upright!
+
+Game ends when you have 'Landed', 'Crashed' or by pressing 'q'. Instructions are provided
+when the game starts.
+
+#### Improvements ####
+
+- Added color
+	- Lander -> Blue
+	- Land -> Black
+	- Fuel Gauge -> Red
+
+- Added Fuel Gauge
+	- Fuel gauge is visual and provides no text warnings!
+	- Fuel decreases everytime you hit the thrusters.
+	- Unable to use thrusters once Fuel has ran out.
+	- Hopefully, you can still land without thrusters :). 
+
+- Arguments
+	- Arguments are handled in any order!
+	- If you enter in the wrong data for arguments, the game still runs without any issues!
+	- If you forget arguments, the game tells you which argument you forgot!
+
+#### How To Run ####
+
+1. Compile by typing make
+
+Phase 1 - Basic
+
+	2a. Run program by typing - ./lander -g [num] -t [num] -f [file_name]
+
+Phase 2 - Improvements
+
+	2b. Run program by typing - ./lander -g [num] -t [num] -i -f [file_name]

@@ -9,6 +9,6 @@
 #Creates executable file named lander
 
 lander: lander.c helper.c helper.h
-	gcc -Wall -std=c99  -o lander lander.c helper.c -lm
+	gcc -Wall -std=c99  -o lander lander.c helper.c -lm -lncurses
 clean:
 	rm -rf *.o lander core
