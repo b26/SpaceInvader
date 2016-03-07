@@ -1,0 +1,7 @@
+drawSegment 0 350 100 300
+drawSegment 100 300 200 400
+drawSegment 200 400 400 400
+drawSegment 400 400 500 300
+drawSegment 500 300 640 350
+pause 10
+end
